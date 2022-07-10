@@ -1,0 +1,57 @@
+.container-nav {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+    color: #212121;
+}
+
+.dashboard {
+    width: 150px;
+}
+
+.top-part {
+    display: flex;
+    align-items: center;
+    color: #757575;
+}
+
+.top-part>span {
+    margin-left: 10px;
+}
+
+.dashboard>span {
+    margin-left: 2px;
+    font-weight: 700;
+}
+
+.search-bar {
+    height: 20%;
+    margin-right: 20px;
+}
+
+.right-part {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.icons-nav {
+    display: flex;
+    align-items: center;
+    width: 50%;
+    margin-bottom: .2vw;
+}
+
+.item {
+    margin-left: 10px;
+}
+
+.sign-in {
+    display: flex;
+    align-items: center;
+}
+
+.sign-in>span {
+    margin-left: 5px;
+}

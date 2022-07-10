@@ -1,0 +1,14 @@
+.App {
+    display: grid;
+
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+
+    grid-column: 2 / 10;
+
+}
+
+
+.sidebar {}

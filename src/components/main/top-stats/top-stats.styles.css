@@ -1,0 +1,46 @@
+.top-s-container {
+    background-color: white;
+    width: 18vw;
+    height: 3vw;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 10px 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.icon-container-top-s {
+    background: rgb(24, 255, 255);
+    background: linear-gradient(120deg, rgba(24, 255, 255, 1) 0%, rgba(41, 121, 255, 1) 100%);
+    width: 2.5vw;
+    height: 2.5vw;
+    border-radius: 8px;
+}
+
+.left-top-icon {
+    display: flex;
+    justify-content: center;
+    margin-top: 12.5px;
+    color: white;
+}
+
+.title-top-s {
+    font-weight: 600;
+    opacity: 50%;
+    margin-bottom: 10px;
+}
+
+.price-percentage {
+    font-weight: 600;
+    font-size: 1.5vw;
+    display: flex;
+    align-items: center;
+}
+
+.percentage {
+    font-size: 1vw;
+    margin-left: 5px;
+    color: #00E676;
+}

@@ -1,0 +1,45 @@
+.right-second-row-container{
+    border-radius: 15px;
+    width: 39%;
+    height: 13vw;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 10px 30px;
+    position: relative;
+}
+.rsr-bg-image{
+    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url("../../../Assets/girl-bg.jpg");
+    display: flex;
+    border-radius: 15px;
+    color: white;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 10px;
+}
+.lower-part-rsr{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 30px;
+}
+.nav-icon-rsr{
+    margin-left: 10px;
+    opacity: 90%;
+    margin-top: 0.3vw;
+}
+.nav-word-rsr{
+    font-weight: 600;
+    opacity: 90%;
+    font-size: .9vw;
+}
+.title-rsr{
+    font-weight: 600;
+    font-size: 1.2vw;
+}
+.desc-rsr{
+    opacity: 95%;
+    width: 32vw;
+    font-size: 0.9vw;
+}

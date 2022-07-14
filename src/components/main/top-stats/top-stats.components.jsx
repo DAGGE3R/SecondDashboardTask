@@ -8,7 +8,15 @@ export const TopStats = (props) => {
         <span className="title-top-s">{props.title}</span>
         <div className="price-percentage">
           <span className="price"> {props.value} </span>
-          <span className="percentage"> {props.percentage} </span>
+          <span
+            className="percentage"
+            style={{
+              color: `${props.percentageColor}`,
+            }}
+          >
+            {" "}
+            {props.percentage}{" "}
+          </span>
         </div>
       </div>
       <div className="icon-container-top-s">

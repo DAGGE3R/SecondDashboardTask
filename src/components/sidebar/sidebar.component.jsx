@@ -3,6 +3,13 @@ import "./sidebar.styles.css";
 import Logo from "../../Assets/SoftUiLogo.png";
 import { Path } from "./paths/path.component";
 import DashboardOutlinedIcon from "@mui/icons-material/DashboardOutlined";
+import TableBarIcon from "@mui/icons-material/TableBar";
+import CreditCardIcon from "@mui/icons-material/CreditCard";
+import ViewInArIcon from "@mui/icons-material/ViewInAr";
+import InsertLinkIcon from "@mui/icons-material/InsertLink";
+import PersonIcon from "@mui/icons-material/Person";
+import AssignmentIndIcon from "@mui/icons-material/AssignmentInd";
+import PersonAddIcon from "@mui/icons-material/PersonAdd";
 export const Sidebar = () => {
   return (
     <div className="sidebar-container">
@@ -13,16 +20,16 @@ export const Sidebar = () => {
       <hr />
       <div className="sidebar-paths">
         <Path title="Dashboard" icon={<DashboardOutlinedIcon />} />
-        <Path title="Tables" icon={<DashboardOutlinedIcon />} />
-        <Path title="Billing" icon={<DashboardOutlinedIcon />} />
-        <Path title="Virtual Reality" icon={<DashboardOutlinedIcon />} />
-        <Path title="RTL" icon={<DashboardOutlinedIcon />} />
+        <Path title="Tables" icon={<TableBarIcon />} />
+        <Path title="Billing" icon={<CreditCardIcon />} />
+        <Path title="Virtual Reality" icon={<ViewInArIcon />} />
+        <Path title="RTL" icon={<InsertLinkIcon />} />
       </div>
       <span className="second-title">ACCOUNT PAGES</span>
       <div className="sidebar-paths">
-        <Path title="Profile" icon={<DashboardOutlinedIcon />} />
-        <Path title="Sign in" icon={<DashboardOutlinedIcon />} />
-        <Path title="Sign up" icon={<DashboardOutlinedIcon />} />
+        <Path title="Profile" icon={<PersonIcon />} />
+        <Path title="Sign in" icon={<AssignmentIndIcon />} />
+        <Path title="Sign up" icon={<PersonAddIcon />} />
       </div>
     </div>
   );

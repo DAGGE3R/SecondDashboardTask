@@ -17,12 +17,14 @@
     width: 2.5vw;
     height: 2.5vw;
     border-radius: 8px;
+    display: flex;
+    justify-content: center;
+
 }
 
 .left-top-icon {
     display: flex;
-    justify-content: center;
-    margin-top: 12.5px;
+    align-items: center;
     color: white;
 }
 
@@ -42,5 +44,4 @@
 .percentage {
     font-size: 1vw;
     margin-left: 5px;
-    color: #00E676;
 }

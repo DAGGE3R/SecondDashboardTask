@@ -1,16 +1,20 @@
 import React from "react";
-import { TopStats } from "./top-stats/top-stats.components";
 import "../main/main.styles.css";
+//* Material Ui components imports
 import MonetizationOnIcon from "@mui/icons-material/MonetizationOn";
-import { LeftSecondRowComponent } from "./second-row/first-second-row.coponents";
-import RocketIcon from "@mui/icons-material/Rocket";
-import EastIcon from "@mui/icons-material/East";
-import { TopChartComponent } from "./third-row/top-chart-tr.components";
-import { RightSecondRowComponent } from "./second-row/right-second-row.coponents";
-import { LeftThirdRowComponent } from "./third-row/left-third-row.components";
 import PublicIcon from "@mui/icons-material/Public";
 import EmojiEventsIcon from "@mui/icons-material/EmojiEvents";
 import ShoppingCartIcon from "@mui/icons-material/ShoppingCart";
+import RocketIcon from "@mui/icons-material/Rocket";
+import EastIcon from "@mui/icons-material/East";
+import ArrowUpwardIcon from "@mui/icons-material/ArrowUpward";
+//* Local components imports
+import { TopStats } from "./top-stats/top-stats.components";
+import { LeftSecondRowComponent } from "./second-row/first-second-row.coponents";
+import { TopChartComponent } from "./third-row/top-chart-tr.components";
+import { RightSecondRowComponent } from "./second-row/right-second-row.coponents";
+import { LeftThirdRowComponent } from "./third-row/left-third-row.components";
+import { RightThirdRowComponent } from "./third-row/right-third-row.components";
 
 export const Main = () => {
   return (
@@ -66,6 +70,13 @@ export const Main = () => {
           chart={<TopChartComponent />}
           title="Active Users"
           percentage="(+23%) than last week"
+        />
+        <RightThirdRowComponent
+          title="Sales Overview"
+          icon={
+            <ArrowUpwardIcon style={{ color: "#00E676", fontSize: "1.2vw" }} />
+          }
+          desc="4% more in 2021"
         />
       </div>
     </div>

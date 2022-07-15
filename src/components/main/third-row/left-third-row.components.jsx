@@ -2,6 +2,9 @@ import React from "react";
 import "./left-third-row.styles.css";
 import { BottomStatsThirdRow } from "./bottom-stats.components";
 import GroupIcon from "@mui/icons-material/Group";
+import MouseIcon from "@mui/icons-material/Mouse";
+import LoyaltyIcon from "@mui/icons-material/Loyalty";
+import ReviewsIcon from "@mui/icons-material/Reviews";
 
 export const LeftThirdRowComponent = (props) => {
   return (
@@ -37,39 +40,39 @@ export const LeftThirdRowComponent = (props) => {
           number="2M"
           bgColor="linear-gradient(120deg, rgba(24, 255, 255, 1) 0%, rgba(41, 121, 255, 1) 100%)"
           icon={
-            <GroupIcon
-              style={{
-                fontSize: ".85vw",
-              }}
-            />
-          }
-          desc="Users"
-        />
-        <BottomStatsThirdRow
-          percentage="30%"
-          number="$435"
-          bgColor="linear-gradient(120deg, rgba(255,215,64,1) 0%, rgba(230,81,0,1) 100%)"
-          icon={
-            <GroupIcon
-              style={{
-                fontSize: ".85vw",
-              }}
-            />
-          }
-          desc="Users"
-        />
-        <BottomStatsThirdRow
-          percentage="50%"
-          number="43"
-          bgColor="linear-gradient(120deg, rgba(240,98,146,1) 0%, rgba(198,40,40,1) 100%)"
-          icon={
-            <GroupIcon
+            <MouseIcon
               style={{
                 fontSize: ".85vw",
               }}
             />
           }
           desc="Clicks"
+        />
+        <BottomStatsThirdRow
+          percentage="30%"
+          number="$435"
+          bgColor="linear-gradient(120deg, rgba(255,215,64,1) 0%, rgba(230,81,0,1) 100%)"
+          icon={
+            <LoyaltyIcon
+              style={{
+                fontSize: ".85vw",
+              }}
+            />
+          }
+          desc="Sales"
+        />
+        <BottomStatsThirdRow
+          percentage="50%"
+          number="43"
+          bgColor="linear-gradient(120deg, rgba(240,98,146,1) 0%, rgba(198,40,40,1) 100%)"
+          icon={
+            <ReviewsIcon
+              style={{
+                fontSize: ".85vw",
+              }}
+            />
+          }
+          desc="Reviews"
         />
       </div>
     </div>

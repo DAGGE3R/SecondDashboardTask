@@ -1,0 +1,48 @@
+.rtr-chart-container{
+    height: 25vw;
+    border-radius: 15px;
+    padding: 20px;
+    width: 54%;
+    margin-left: 1.2vw;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 10px 30px;
+}
+.rtr-top-stats{
+    display: flex;
+    flex-direction: column;
+}
+.rtr-desc-container{
+    display: flex;
+    align-items: center;
+    font-weight: 300;
+    margin-top: 15px;
+}
+.rtr-title{
+    font-weight: 600;
+}
+.rtr-desc{
+    margin-left: 7.5px;
+    margin-bottom: 5px;
+    font-size: 0.9vw;
+}
+.rtr-chart{
+    width: fit-content;
+    height: 20.5vw;
+    padding: 10px;
+   
+}
+.rtr-chart>img{
+    width: 40vw;
+}
+.rtr-chart-label-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.rtr-number{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 15px;
+    font-size: .7vw;
+}
